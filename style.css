@@ -4,7 +4,7 @@ body
 	padding-left: 5em;
 	padding-right: 5em;
 	color: #B0E0E6;
-	background-image: url(/img/hatter.jpg);
+	background-image: url(img/hatter.jpg);
 	background-position: center;
 	background-attachment: fixed;
 }
