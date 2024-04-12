@@ -1,0 +1,37 @@
+body
+{
+	background-size: cover;
+	padding-left: 5em;
+	padding-right: 5em;
+	color: #B0E0E6;
+}
+
+.divformaz
+{
+	background-color: black;
+}
+
+#navbarNav
+{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 25px;
+}
+
+#cim
+{
+	text-align: center;
+}
+
+#cim2
+{
+	text-align: center;
+	line-height: 80px;
+}
+
+label
+{
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
