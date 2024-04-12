@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="hu">
 
 <head>
+	<meta charset="UTF-8">
 	<!-- Szükséges meta elemek -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Órák</title>
 
     <!-- Bootstrap CSS -->    
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
 	
 </head>
 
@@ -14,7 +18,7 @@
 	<!-- Fejléc -->
 	<header class="fejlec">
 		<div>
-			<hr>
+			<hr id="vonal">
 		</div>
 	</header>
 	
@@ -28,6 +32,7 @@
 			<div id="navbarNav">
 				<a href="#analog">Analóg</a>
 				<a href="#digitalis">Digitális</a>
+				<a href="#pontosido">Pontos idő</a>
 			</div>
 		</nav>
 		
@@ -40,7 +45,10 @@
 				<!-- Megjelenés -->
 				<section id="tippek">
 				    <div class="p-3 h-100 divformaz">
-						<!-- Ide  -->
+						<h3>Toronyóra</h3>
+						<p>
+						A modern mechanikus toronyóra egy hosszú fejlődési korszakot zár le. A hengerkerékre csavart kötél végén leereszkedő súly forgásba hozza az egész kerék rendszert, amit az ingával vezérelt gátlómű szabályoz. Az utca embere szívesen tekinti meg a pontos időt a tornyokon lévő órákon. Napjainkban a legtöbb toronyórában villanymotor húzza fel a súlyt. Az ilyen óráknál gondoskodni kell megfelelő fogaskerék-áttételről, hogy húzás alatt is működjék az óra, mert egyébként az megáll.
+						</p>
 					</div>					
 				</section>
 			</div>
@@ -49,9 +57,18 @@
 				<section id="orafajtak">
 					<div class="p-3 h-100 divformaz">
 						<h3>Híres toronyórák</h3>
-						Big-Ben, Olomouc, Gare de Lyon, Sala, Orloj
+						<li>Big-Ben</li> 
+						<li>Olomouc</li> 
+						<li>Gare de Lyon</li> 
+						<li>Sala</li> 
+						<li>Orloj</li>
 						<h3>Hol találhatók?</h3>
-						Anglia, Csehország, Franciaország, Svédország
+						<ul>
+						<li>Anglia</li> 
+						<li class="valami">Csehország</li> 
+						<li>Franciaország</li> 
+						<li class="valami">Svédország</li>
+						</ul>
 					</div>
 					<div class="p-3 h-100 divformaz">
 						<h3>További órák</h3>
@@ -70,11 +87,11 @@
 			<div class="row">
 				<div class="col-12 col-md-4 p-2">
 					<div class="p-3 h-100 divformaz">
-						<img src="img/ora1.jpg" alt=" " class="my-3">
-						<img src="img/ora2.jpg" alt=" " class="my-3">
+						<img src="img/ora1.jpg" alt=" " class="my-3 w-100">
+						<img src="img/ora2.jpg" alt=" " class="my-3 w-100">
 					</div>
 				</div>
-				<div class="col-12 col-md-5 p-2 m">
+				<div class="col-12 col-md-4 p-2 m">
 					<div class="p-3 h-100 divformaz">
 					    <h2 id="analog">Analóg óra</h2>
 						<p>Az első toronyórák csak ütéssel jeleztek. A számlapos órákon kezdetben csak egy óramutató forgott körbe. Később az órák és a percek külön mutatókat kaptak. Megszokás alapján a nagymutatóról a perceket, a kismutatóról az órákat olvassuk le. A mutatókkal való jelzést analógnak mondjuk, mert a mutatók elfordulási szöge arányos az eltelt idővel.</p>
@@ -82,9 +99,9 @@
 						<p>A digitális, azaz számjegyes kijelzést több száz éve ismerik, de sokáig nem terjedt el. A két világháború között olyan mechanikus karórák is voltak, amelyekben kis ablakban jelentek meg a számok. Ezek leolvasása könnyebb volt rossz látási viszonyok között is. A világító diódák működése a gallium-arzenid ama tulajdonságán alapul, hogy az az elektromos feszültség hatására világít. Más rendszerű a ma elterjedt folyadékkristályos kijelzők (LCD) alkalmazása. Ebben a molekulák elhelyezkedését feszültséggel befolyásolni lehet, amik a rájuk eső fényt visszaverik. Sötétben a leolvasáshoz fényforrásra van szükség (a modernebb órák ezért kis fényforrást is tartalmaznak).</p>
 					</div>
 				</div>
-				<div class="col-12 col-md-3 p-2">
+				<div class="col-12 col-md-4 p-2">
 					<div class="p-3 h-100 divformaz">
-						<img src="img/ora3.jpg" class="my-3">
+						<img src="img/ora3.jpg" alt="Óra" title="Óra" class="my-3 w-100 orakep">
 					</div>
 				</div>
 			</div>
@@ -96,7 +113,7 @@
 		<div id="pontosido" class="jumbotron text-center py-3 mt-5 divformaz">
 			<h4>Állítsa be óráján a pontos időt</h4>
 			<p>Internetes szolgáltatás:<br>
-			   Pontos idő
+			   <a href="https://www.pontosido.com" target="_blank" class="btn btn-primary btn-lg">Pontos idő</a>
 			</p>
 		</div>
 	</footer>
